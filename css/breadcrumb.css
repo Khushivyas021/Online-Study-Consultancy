@@ -1,0 +1,12 @@
+.breadcrumb-section{
+    height: 5vh;
+    display: flex;
+    align-items: center;  
+}
+
+.breadcrumb-section .breadcrumb .breadcrumb-link{
+    font-size: 1rem;
+    padding:0 1rem;
+    font-weight: 500;
+}
+
