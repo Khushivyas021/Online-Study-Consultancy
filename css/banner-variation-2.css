@@ -1,0 +1,44 @@
+.banner-variation{
+    height: 100vh;
+}
+
+.banner-variation .banner-image{
+    position: relative;
+    height: 100vh;
+}
+
+.banner-variation .banner-image .banner-itaem{
+    position: absolute;
+    top:20%;
+    left: 5%;
+}
+
+.banner-variation .banner-image .banner-itaem h2{
+    padding: 2rem 0;
+    color: var(--white);
+    font-size: 2.3rem;
+}
+
+.banner-variation .banner-image .banner-itaem p{
+    width: 40%;
+    color: var(--white);
+    font-weight: 400;
+}
+
+.banner-variation .banner-image .banner-itaem .banner-link{
+    display: flex;
+}
+
+.banner-variation .banner-image .banner-itaem .banner-link .b-link{
+    padding: 1rem 1rem;
+    background: var(--white);
+    margin: 5rem 1rem 0 0;
+    border: 1px solid var(--cinnabar);
+    font-weight: 700;
+
+}
+
+.banner-variation .banner-image .banner-itaem .banner-link .b-link:focus{
+    background: var(--cinnabar);
+    color: var(--white);
+}
