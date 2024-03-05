@@ -43,7 +43,7 @@
 }
 
 .feature-content .feature-content__right .drop-down-variation select {
-
+    width: 96%;
     padding: 1rem 0.9rem;
     position: relative;
     top: 0rem;
