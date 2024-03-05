@@ -25,6 +25,10 @@
     padding: 2rem 0;
 }
 
+.feature-content .feature-content__right p{
+    padding: 1rem 0;
+}
+
 /* Dropdown Variation */
 
 .feature-content .feature-content__right .drop-down-variation {
