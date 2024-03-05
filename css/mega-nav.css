@@ -4,6 +4,7 @@
 }
 
 .navigation .navigation__logo {
+    padding-top: 20px;
     height: 80px;
     width: 109px;
     margin-left: 30px;
@@ -12,6 +13,7 @@
 
 .navigation .navigation__logo img {
     mix-blend-mode: multiply;
+    transform: scale(1.1);
 }
 
 .navigation .navigation__link {
