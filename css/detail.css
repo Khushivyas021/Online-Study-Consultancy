@@ -1,0 +1,177 @@
+.study-abroad-details {
+    padding: 0 0 50px 0;
+}
+
+/* custom-tab__button */
+.custom-tab__button .button-container {
+    background-color: var(--alabaster-background);
+    padding: 8rem 0;
+    width: 100%;
+    display: flex;
+}
+
+
+.button-container-details {
+    height: 148px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--alabaster-background);
+
+    
+}
+
+/* custom-tab button */
+
+/* .custom-tab__button .button-container {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    
+} */
+
+.buttons {
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.buttons .btn {
+    padding: 5px 5px;
+    border-radius: 50px;
+    border: 1px solid;
+    background-color: #fff;
+    background-color: var(--alabaster-background);
+}
+
+.btn a:hover {
+    color: var(--cinnabar);
+}
+
+/* end custom-tab button */
+/* custom-tab table */
+.custom_tab_table .table-container {
+    height: 500px;
+    width: 100%;
+}
+
+table {
+    font-size: 18px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+tr {
+    border: 1px solid #ddd;
+
+}
+
+td,
+th {
+    cursor: pointer;
+    padding: 10px;
+
+
+}
+
+tr:nth-child(even) {
+    background-color: #f5f8f9;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+.td_image {
+    display: flex;
+}
+
+.td_img {
+    padding: 5px;
+}
+
+.td_containt {
+    padding: 5px;
+}
+
+td p {
+    padding: 2px;
+    font-size: 15px;
+    color: #121313;
+    font-weight: 500;
+}
+
+td small {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+td span {
+    font-weight: 600;
+}
+
+
+.table-container img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+td,
+th {
+    /* border: 1px solid black; */
+    text-align: left;
+}
+
+/* end custom-tab table */
+
+
+.font32 {
+    font-size: 32px;
+}
+
+.study-in-canada__heading-level-two {
+    padding: 20px 0;
+}
+
+.study-in-canada__heading-level-two_span {
+    color: var(--cinnabar);
+}
+
+.study-in-canada__heading_para_container {
+    padding: 10px 0;
+}
+
+.study-in-canada__heading_para {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.iframe-study {
+    height: 500px;
+}
+
+.orderedlist {
+    list-style: disc;
+    font-size: 18px;
+}
+
+.orderedlist li {
+    padding: 5px 0;
+}
+
+.sub-heading {
+    font-size: 20px;
+    padding: 10px 0;
+
+}
