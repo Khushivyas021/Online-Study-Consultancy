@@ -38,6 +38,11 @@
 
 }
 
+.banner-variation .banner-image .banner-itaem .banner-link .active{
+    background: var(--cinnabar);
+    color: var(--white);
+}
+
 .banner-variation .banner-image .banner-itaem .banner-link .b-link:focus{
     background: var(--cinnabar);
     color: var(--white);

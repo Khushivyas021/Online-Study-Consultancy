@@ -1,0 +1,33 @@
+.simple-btn-section {
+    padding: 1rem 0;
+
+}
+
+.simple-btn-section .btn-iteam {
+    width: 100%;
+    height: 8rem;
+    background: #F7F9FC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.simple-btn-section .btn-iteam button{
+    border: none;
+    border-radius: 10px;
+}
+
+.simple-btn-section .btn-iteam button a{
+    padding:1rem 1rem;
+    display: inline-block;
+    color: var(--elephant);
+    border-radius: 10px;
+}
+
+.simple-btn-section .btn-iteam button a:focus {
+    background: var(--cinnabar);
+    color: var(--white);
+    font-weight: 600;
+    padding: 1rem 1rem;
+}
