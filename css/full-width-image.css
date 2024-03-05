@@ -1,0 +1,29 @@
+.full-width-image {
+    height: 50vh;
+}
+
+.full-width-image .full-width-image-main {
+    height: 50vh;
+}
+
+.full-width-image .full-width-image-main .full-width-details {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.full-width-image .full-width-image-main .full-width-details h2{
+    color: var(--white);
+    font-size: 3.2rem;
+    font-weight: 900;
+}
+
+.full-width-image .full-width-image-main .full-width-details a{
+    color: var(--cinnabar);
+    font-weight: 900;
+    margin:5rem 0;
+    display: inline-block;
+    font-size: 2.4rem;
+}
