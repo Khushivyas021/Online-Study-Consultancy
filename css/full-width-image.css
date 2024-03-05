@@ -1,14 +1,16 @@
 .full-width-image {
     height: 50vh;
+    
 }
 
 .full-width-image .full-width-image-main {
     height: 50vh;
+    position: relative;
 }
 
 .full-width-image .full-width-image-main .full-width-details {
     position: absolute;
-    top: 30%;
+    top: 55%;
     left: 42%;
     transform: translate(-38%, -50%);
     text-align: center;
