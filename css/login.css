@@ -1,0 +1,58 @@
+.sign-up-section .login-details {
+    height: 100vh;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    ;
+}
+
+.sign-up-section .login-details h3 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    padding: 1rem 0;
+}
+
+
+.sign-up-section .sign-up-wrapper .login-details .login-details__wrappper{
+padding: 2rem;
+}
+
+.sign-up-section .sign-up-wrapper .login-details .login-details__wrappper .logindetails{
+    padding: 1rem;
+}
+
+.sign-up-section .sign-up-wrapper .login-details .login-details__wrappper .logindetails label{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.sign-up-section .sign-up-wrapper .login-details .login-details__wrappper .logindetails input{
+    padding:0.5rem 1rem;
+    border: 1px solid var(--cinnabar);
+}
+
+.sign-up-section .sign-up-wrapper .login-details .login-details__wrappper .logindetails .password{
+    padding: 0 0 0.5rem 0;
+}
+
+
+.sign-up-section .sign-up-wrapper .login-details button{
+        padding: 1rem 3rem;
+            border-radius: 5rem;
+            color: var(--black);
+            border: 1px solid var(--black);
+            margin: 0 1rem;
+        
+}
+
+.sign-up-section .sign-up-wrapper .login-details label{
+    margin: 0 1rem;
+}
+
+.sign-up-section .sign-up-wrapper .login-details button:focus{
+    background: var(--cinnabar);
+    font-weight: 800;
+    color: var(--white);
+}
