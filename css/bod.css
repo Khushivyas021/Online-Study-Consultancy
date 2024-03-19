@@ -1,4 +1,3 @@
-
 .bod-section .bod-title {
     text-align: center;
     padding: 6rem 0;
@@ -18,15 +17,16 @@
     width: 80rem;
     margin: auto;
     color: var(--black);
+    position: relative;
 }
 
 .bod-section .bod-title h2::after {
-    top: 18rem;
+    top: 15rem;
     content: '';
     position: absolute;
-    left: 55rem;
+    left: 35rem;
     bottom: 0rem;
-    width: 6%;
+    width: 16%;
     margin: auto;
     height: 3px;
     background: var(--cinnabar);

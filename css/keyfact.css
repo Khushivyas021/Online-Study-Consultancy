@@ -1,6 +1,4 @@
-.keyfact{
-    height: 100vh;
-}
+
 .keyfact .keyfact-title {
     text-align: center;
     padding: 6rem 0;
@@ -19,18 +17,19 @@
     width: 80rem;
     margin: auto;
     color: var(--black);
+    position: relative;
 }
 
 .keyfact .keyfact-title h2::after {
-    top: 14rem;
-    content: '';
-    position: absolute;
-    left: 55rem;
-    bottom: 0rem;
-    width: 6%;
-    margin: auto;
-    height: 3px;
-    background: var(--cinnabar);
+        top: 14rem;
+            content: '';
+            position: absolute;
+            left: 35rem;
+            bottom: 0rem;
+            width: 15%;
+            margin: auto;
+            height: 3px;
+            background: var(--cinnabar);
 }
 
 .keyfact .keyfact-details{

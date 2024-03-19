@@ -82,7 +82,7 @@ h6 {
     font-size: 1.4rem;
 }
 
-.container {
+/* .container {
     width: 80%;
     margin: auto;
 }
@@ -162,7 +162,7 @@ h6 {
 
 .h-50{
     height: 50vh;
-}
+} */
 
 .heading-red {
     color: var(--cinnabar);
@@ -207,7 +207,7 @@ h6 {
     background: var(--white);
 }
 
-.pt-50{
+/* .pt-50{
     padding-top: 5rem;
-}
+} */
 

@@ -12,7 +12,7 @@
 }
 
 .feature-content .feature-content__right {
-    padding: 1.5rem 2rem;
+    padding: 8.5rem 2rem;
 }
 
 .feature-content .feature-content__right span {
@@ -25,7 +25,7 @@
     padding: 2rem 0;
 }
 
-.feature-content .feature-content__right p{
+.feature-content .feature-content__right p {
     padding: 1rem 0;
 }
 
@@ -36,8 +36,9 @@
 }
 
 .feature-content .feature-content__right .drop-down-variation label {
+    display: inline;
     position: relative;
-    top: 8px;
+    top: 7px;
     background: var(--white);
     left: 2rem;
     font-weight: 600;
@@ -47,11 +48,10 @@
 }
 
 .feature-content .feature-content__right .drop-down-variation select {
-    width: 96%;
+    width: 100%;
     padding: 1rem 0.9rem;
     position: relative;
     top: 0rem;
-    right: -6px;
 }
 
 .feature-content .feature-content__right .drop-down-variation select:focus {
@@ -74,8 +74,7 @@
 }
 
 .feature-content .feature-content__right .drop-down-variation input {
-    margin: 0rem 0.5rem;
-    padding: 1.2rem 2rem;
+    width: 100%;
     border: 1px solid var(--pumice-txt);
 }
 
@@ -161,7 +160,7 @@
 }
 
 .feature-content .feature-content__right .drop-down-variation textarea {
-
+    width: 100%;
     margin: 2rem 0rem;
 }
 
@@ -171,14 +170,17 @@
 }
 
 .feature-content .feature-content__right .drop-down-variation a {
-    padding: 1.1rem 4rem;
+    text-align: center;
+    padding: 0.8rem 4rem;
     background: var(--cinnabar);
     position: relative;
-    top: 2.5rem;
+    top: 1.7rem;
     left: 5px;
     font-weight: 800;
     color: var(--white);
     transition: 0.5s;
+    width: 100%;
+    display: block;
 }
 
 .feature-content .feature-content__right .drop-down-variation a:hover {
@@ -186,7 +188,7 @@
 }
 
 .feature-content .feature-content__right .drop-down-variation input {
-    margin: 0rem 0.5rem;
+   
     padding: 1.2rem 2rem;
     border: 1px solid var(--pumice-txt);
 }

@@ -1,5 +1,5 @@
 .signpost-icon {
-    height: 100vh;
+   padding: 1rem 0;
 }
 
 .signpost-icon .signpost-icon__title {
@@ -20,18 +20,19 @@
     width: 80rem;
     margin: auto;
     color: var(--black);
+    position: relative;
 }
 
 .signpost-icon .signpost-icon__title h2::after {
-    top: 16rem;
-    content: '';
-    position: absolute;
-    left: 55rem;
-    bottom: 0rem;
-    width: 6%;
-    margin: auto;
-    height: 3px;
-    background: var(--cinnabar);
+    top: 10rem;
+        content: '';
+        position: absolute;
+        left: 35rem;
+        bottom: 0rem;
+        width: 15%;
+        margin: auto;
+        height: 3px;
+        background: var(--cinnabar);
 }
 
 .signpost-icon .signpost-icon__details {
