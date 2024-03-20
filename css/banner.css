@@ -1,7 +1,10 @@
-.swiper {
+.custom-swpier{
+    height: 100vh !important;
+}
+/* .swiper {
     width: 100%;
     height: 100vh;
-}
+} */
 
 .swiper-slide {
     text-align: center;
