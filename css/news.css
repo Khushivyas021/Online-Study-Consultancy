@@ -51,11 +51,12 @@
     transition: 0;
 }
 
+.news-section .news-section__news-des .news-des__image img{
+    transition: 0.5s;
+}
 
 .news-section .news-section__news-des .news-des__image:hover img{
     transform: scale(1.2);
-    transition: all 0.5s ease-out;
-    
 }
 
 
